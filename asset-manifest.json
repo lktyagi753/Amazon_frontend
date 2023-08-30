@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Amazon_frontend/static/css/main.ef29af9f.css",
-    "main.js": "/Amazon_frontend/static/js/main.387fa30f.js",
+    "main.js": "/Amazon_frontend/static/js/main.6b20d12d.js",
     "index.html": "/Amazon_frontend/index.html",
     "main.ef29af9f.css.map": "/Amazon_frontend/static/css/main.ef29af9f.css.map",
-    "main.387fa30f.js.map": "/Amazon_frontend/static/js/main.387fa30f.js.map"
+    "main.6b20d12d.js.map": "/Amazon_frontend/static/js/main.6b20d12d.js.map"
   },
   "entrypoints": [
     "static/css/main.ef29af9f.css",
-    "static/js/main.387fa30f.js"
+    "static/js/main.6b20d12d.js"
   ]
 }
