@@ -22,12 +22,12 @@ function Navbar(props) {
     <Container>
       <Inside>
         <Logo>
-          <img onClick={() => navigate('/')} src="./Amazon_frontend/amazon_logo.png" alt="" />
+          <img onClick={() => navigate('/')} src="/amazon_logo.png" alt="" />
         </Logo>
         <SearchBox>
           <input type="text" placeholder="Search here" />
           <SearchLogo onClick={() => navigate('/addproduct')}>
-            <img src="./Amazon_frontend/search.png" alt="" />
+            <img src="/search.png" alt="" />
           </SearchLogo>
         </SearchBox>
         <RightSide>
@@ -40,7 +40,7 @@ function Navbar(props) {
             <p>& Orders</p>
           </NavItems>
           <Cart onClick={()=>navigate("/checkout")}>
-            <img src="./Amazon_frontend/cart.png" alt="" />
+            <img src="/cart.png" alt="" />
             <p>{basket?.length}</p>
           </Cart>
         </RightSide>
@@ -48,7 +48,7 @@ function Navbar(props) {
       <ResponsiveSearchBox>
         <input type="text" placeholder="Search here" />
         <ResponsiveSearchLogo onClick={() => navigate('/addproduct')}>
-          <img src="./Amazon_frontend/search.png" alt=""/>
+          <img src="/search.png" alt=""/>
         </ResponsiveSearchLogo>
       </ResponsiveSearchBox>
     </Container>

@@ -94,7 +94,7 @@ function Address() {
 const Container = styled.div`
 width: 100%;
 height: fit-content;
-max-width: 1400px;
+min-height: 100vh;
 margin: auto;
 background-color: rgb(234, 237, 237);
 position: relative;

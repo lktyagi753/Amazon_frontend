@@ -73,7 +73,6 @@ export default function CheckOut() {
 
 const Container = styled.div`
 width: 100%;
-max-width: 1400px;
 height: fit-content;
 margin: auto;
 background-color: rgb(234, 237, 237);

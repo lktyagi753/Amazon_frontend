@@ -22,8 +22,8 @@ function Home() {
     <Container>
       <Navbar />
       <Banner>
-        <img src="./Amazon_frontend/Backimg.jpg" alt="" />
-        <img src="./Amazon_frontend/Mobile_Backimg.jpg" alt="" />
+        <img src="/Backimg.jpg" alt="" />
+        <img src="/Mobile_Backimg.jpg" alt="" />
       </Banner>
 
       <Main>

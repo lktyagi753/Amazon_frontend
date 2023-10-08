@@ -11,7 +11,6 @@ import { useNavigate } from "react-router-dom";
 
 function Payment() {
 
-
   const [{address, basket, user}, dispatch] = useStateValue();
   const [clientSecret, setClientSecret] = useState("");
   const elements = useElements();
@@ -130,7 +129,7 @@ function Payment() {
 const Container = styled.div`
   width: 100%;
 
-  max-width: 1400px;
+  min-height: 100vh;
   background-color: rgb(234, 237, 237);
 `;
 
